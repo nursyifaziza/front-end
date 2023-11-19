@@ -1,0 +1,3 @@
+.sidebar li:has(.active) {
+  background-color: #ffb850;
+}

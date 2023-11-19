@@ -1,0 +1,32 @@
+.datatable {
+    height: 600px;
+    padding: 20px;
+
+    .cellAv {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .cellAct {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .view {
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: #FFAC31;
+            border: 1px dotted #FFAC31;
+            cursor: pointer;
+        }
+
+        .delete {
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: red;
+            border: 1px dotted red;
+            cursor: pointer;
+        }
+    }
+}
